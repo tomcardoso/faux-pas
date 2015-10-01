@@ -6,6 +6,8 @@ A Twitter API 1.1 bot that listens for tweets @ a specific user, and replies red
 
 By the time I'd signed up for Twitter, I'd missed the chance to get [@tomcardoso](http://www.twitter.com/tomcardoso), and was stuck with [@tom_cardoso](http://www.twitter.com/tom_cardoso) instead. Occasionally, people will tweet at @tomcardoso instead of my actual handle, so this bot tweets at them and suggests they might want to tweet at @tom_cardoso instead. (This isn't terribly rude because @tomcardoso has been inactive for years. Please be polite when using this bot.)
 
+Faux Pas' code is heavily inspired by [Michael Keller](https://github.com/mhkeller)'s [mockingjay](https://github.com/csvsoundsystem/mockingjay).
+
 ### Installation
 
 Make sure you have [Node.js](http://nodejs.org) installed, then do:
