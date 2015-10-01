@@ -48,3 +48,10 @@ var opts = {
 This package is meant to be run on a cron. Here's an example setup that runs it on the 1s
 
 `1,11,21,31,41,51 * * * * /usr/bin/node /home/ubuntu/tasks/botname/index.js`
+
+Alternatively if you want to run it locally just once, you just need to do:
+`node index.js`
+
+### Troubleshooting
+
+More often than not, if you're having a problem after setting up the scripts, it's because the `lib/last-ids` folder is missing. Try recreating the folder and everything should (hopefully) work… more or less.
