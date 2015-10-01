@@ -54,4 +54,4 @@ Alternatively if you want to run it locally just once, you just need to do:
 
 ### Troubleshooting
 
-More often than not, if you're having a problem after setting up the scripts, it's because the `lib/last-ids` folder is missing. Try recreating the folder and everything should (hopefully) work… more or less.
+More often than not, if you're having a problem after setting up the scripts, it's because the `/last-ids` folder is missing. Try recreating the folder and everything should (hopefully) work… more or less.
