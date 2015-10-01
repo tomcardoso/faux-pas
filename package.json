@@ -1,6 +1,6 @@
 {
   "name": "faux-pas",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Twitter bot that listens for tweets at an account and replies redirecting the tweeter to another account.",
   "main": "lib/faux-pas.js",
   "scripts": {
