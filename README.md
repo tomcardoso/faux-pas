@@ -25,6 +25,24 @@ First, create a file called `.twitter.json` in the project's root directory and 
 }
 ```
 
-Once that's done,
+Once that's done, you'll want to customize the `opts` variable in `index.js` as so:
+```
+var opts = {
+  mentioned_user: "example_user_name", // the Twitter handle you'd like to track goes here
+  intended_user: "your_user_name", // the Twitter account you want to redirect people to
+  credentials: {
+    consumer_key: config.consumer_key,
+    consumer_secret: config.consumer_secret,
+    access_token: config.access_token,
+    access_token_secret: config.access_token_secret
+  },
+  bot_name: "your_bot_name", // the name of your bot
+  count: 20
+};
+```
 
+### Crontab
 
+This package is meant to be run on a cron. Here's an example setup that runs it on the 1s
+
+`1,11,21,31,41,51 * * * * /usr/bin/node /home/ubuntu/tasks/botname/index.js`

@@ -10,6 +10,11 @@
     "twitter",
     "bot"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomcardoso/faux-pas.git"
+  },
+  "homepage": "https://github.com/tomcardoso/faux-pas",
   "author": "Tom Cardoso",
   "license": "MIT",
   "dependencies": {

@@ -1,4 +1,4 @@
-var fauxPas = require('./lib/faux-pas'),
+var fauxPas = require('faux-pas'),
     config = require("./.twitter.json");
 
 var opts = {
